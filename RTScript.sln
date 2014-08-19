@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RTScript.Core", "RTScript.Core\RTScript.Core.csproj", "{AB917244-8307-4F3A-AF0A-74FB40341E4F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RTScript.Test", "RTScript.Test\RTScript.Test.csproj", "{BD680E94-31EF-430B-9FDB-56F4C59DFF4B}"
+EndProject
+Global
+	GlobalSection(SubversionScc) = preSolution
+		Svn-Managed = True
+		Manager = AnkhSVN - Subversion Support for Visual Studio
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|Mixed Platforms = Debug|Mixed Platforms
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|Mixed Platforms = Release|Mixed Platforms
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AB917244-8307-4F3A-AF0A-74FB40341E4F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB917244-8307-4F3A-AF0A-74FB40341E4F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB917244-8307-4F3A-AF0A-74FB40341E4F}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{AB917244-8307-4F3A-AF0A-74FB40341E4F}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{AB917244-8307-4F3A-AF0A-74FB40341E4F}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{AB917244-8307-4F3A-AF0A-74FB40341E4F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB917244-8307-4F3A-AF0A-74FB40341E4F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AB917244-8307-4F3A-AF0A-74FB40341E4F}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{AB917244-8307-4F3A-AF0A-74FB40341E4F}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{AB917244-8307-4F3A-AF0A-74FB40341E4F}.Release|x86.ActiveCfg = Release|Any CPU
+		{BD680E94-31EF-430B-9FDB-56F4C59DFF4B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD680E94-31EF-430B-9FDB-56F4C59DFF4B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD680E94-31EF-430B-9FDB-56F4C59DFF4B}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{BD680E94-31EF-430B-9FDB-56F4C59DFF4B}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{BD680E94-31EF-430B-9FDB-56F4C59DFF4B}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{BD680E94-31EF-430B-9FDB-56F4C59DFF4B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD680E94-31EF-430B-9FDB-56F4C59DFF4B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BD680E94-31EF-430B-9FDB-56F4C59DFF4B}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{BD680E94-31EF-430B-9FDB-56F4C59DFF4B}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{BD680E94-31EF-430B-9FDB-56F4C59DFF4B}.Release|x86.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
