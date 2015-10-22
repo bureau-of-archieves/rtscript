@@ -40,7 +40,7 @@ namespace RTScript.Core.Logic
             {
                 _matcher = new RTMatcher(this._data.MatchExpression, _data.RuleOptions.MatchOptions);
                 _template = new RTTemplate(_data.TemplateExpression, _data.RuleOptions.TemplateOptions);
-                _merger = new RTMerger(this._data.PostExpression, this._data.RuleOptions.MergeOptions);
+                _merger = new RTMerger(this._data.MergeExpression, this._data.RuleOptions.MergeOptions);
                 this._data = null;
             }
         }

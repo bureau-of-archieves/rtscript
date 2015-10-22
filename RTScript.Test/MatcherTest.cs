@@ -103,11 +103,10 @@ Line2
 
  Line4 ";
             var result = GetMatchList(srcText, @".+$", RegexOptions.Multiline);
-            Assert.AreEqual(4, result.Count);
-            Assert.AreEqual("Line1\r", result[0].GetItem(0));
-            Assert.AreEqual("Line2 \r", result[1].GetItem(0));
-            Assert.AreEqual("\r", result[2].GetItem(0));
-            Assert.AreEqual(" Line4 ", result[3].GetItem(0));
+            Assert.AreEqual(3, result.Count);
+            Assert.AreEqual("Line1", result[0].GetItem(0));
+            Assert.AreEqual("Line2 ", result[1].GetItem(0));
+            Assert.AreEqual(" Line4 ", result[2].GetItem(0));
         }
 
         [TestMethod]

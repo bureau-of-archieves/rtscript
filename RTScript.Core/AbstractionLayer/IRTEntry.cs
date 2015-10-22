@@ -3,7 +3,7 @@
 namespace RTScript.Core.AbstractionLayer
 {
     /// <summary>
-    /// The input of the merge step is a list of ITREntry.
+    /// The input of the merge step is a list of IRTEntry.
     /// Template converts each match output row (IRTMatch) to an merge input row（ITREntry) (1:1 mapping).
     /// </summary>
     public interface IRTEntry

@@ -5,6 +5,9 @@ using System.Text;
 
 namespace RTScript.Core
 {
+    /// <summary>
+    /// The type of script to use.
+    /// </summary>
     public enum ScriptType
     {
         /// <summary>
@@ -20,8 +23,7 @@ namespace RTScript.Core
         /// {Substring {0} 0 {Add {Len {0}} -1}}
         /// {IndexOf {0} "Test"}
         /// </summary>
-        OO
+        Simple
 
-    
     }
 }

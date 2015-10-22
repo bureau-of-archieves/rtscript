@@ -11,6 +11,9 @@ using RTScript.Core.Logic.Expression;
 
 namespace RTScript.Core
 {
+    /// <summary>
+    /// The metadata of a function. 
+    /// </summary>
     public abstract class RTMetadata
     {
         /// <summary>

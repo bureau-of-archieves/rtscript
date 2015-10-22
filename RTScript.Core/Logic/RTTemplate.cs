@@ -74,6 +74,6 @@ namespace RTScript.Core.Logic
             }
         }
 
-        private static TemplateMetadataFactory _factory = new TemplateMetadataFactory(); //todo temp solution
+        private static TemplateMetadataFactory _factory = new TemplateMetadataFactory(); //todo need to make this extensible, i.e. load metadata from a conventional location
     }
 }

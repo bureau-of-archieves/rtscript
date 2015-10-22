@@ -5,7 +5,9 @@ using System.Text;
 
 using RTScript.Core.Logic;
 
-//Top level API classes are put in this namespace
+/// <summary>
+/// Top level API classes are put in this namespace.
+/// </summary>
 namespace RTScript.Core
 {
     /// <summary>

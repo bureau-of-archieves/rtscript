@@ -6,14 +6,17 @@ using System.Text;
 
 namespace RTScript.Core
 {
+    /// <summary>
+    /// The instance of this class represent the state of a rule.
+    /// </summary>
     [Serializable]
     public class RTRuleData
     {
-        public RTRuleData(string matchExpr, string templateExpr, string postExpr, RuleOptions options)
+        public RTRuleData(string matchExpr, string templateExpr, string mergeExpr, RuleOptions options)
         {
             this.MatchExpression = matchExpr;
             this.TemplateExpression = templateExpr;
-            this.PostExpression = postExpr;
+            this.MergeExpression = mergeExpr;
             this.RuleOptions = options;
         }
 
@@ -29,7 +32,7 @@ namespace RTScript.Core
             private set;
         }
 
-        public string PostExpression
+        public string MergeExpression
         {
             get;
             private set;

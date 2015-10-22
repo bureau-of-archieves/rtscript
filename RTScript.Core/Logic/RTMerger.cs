@@ -13,14 +13,14 @@ namespace RTScript.Core.Logic
 {
     public class RTMerger : IRTMerger
     {
-        private string _postExpr;
+        private string _mergeExpr;
         private MergeOptions _mergeOptions;
         private RTExpressionList _interpreter;
         private RTParsingException _parsingException;
 
-        public RTMerger(string postExpr, MergeOptions options)
+        public RTMerger(string mergeExpr, MergeOptions options)
         {
-            _postExpr = postExpr;
+            _mergeExpr = mergeExpr;
             _mergeOptions = options;
         }
 
@@ -30,11 +30,11 @@ namespace RTScript.Core.Logic
             {
                 RTParsingContext context = new RTParsingContext(_factory);
                 var exprList = new RTExpressionList();
-                exprList.Parse(_postExpr, 0, context);
+                exprList.Parse(_mergeExpr, 0, context);
                 _interpreter = exprList;
 
                 _mergeOptions = null; //not needed anymore
-                _postExpr = null;
+                _mergeExpr = null;
 
                 if (!_interpreter.CanExecute)
                 {
@@ -66,7 +66,7 @@ namespace RTScript.Core.Logic
             }
         }
 
-        private static PostMetadataFactory _factory = new PostMetadataFactory();
+        private static PostMetadataFactory _factory = new PostMetadataFactory(); //todo need to make this extensible, i.e. load metadata from a conventional location
 
     }
 }
