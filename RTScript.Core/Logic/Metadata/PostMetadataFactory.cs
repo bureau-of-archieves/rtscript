@@ -12,6 +12,7 @@ namespace RTScript.Core.Logic.Metadata
         {
             base.Init();
             this.AddMetadata(new RTFuncMerge());
+            //todo merge get, unmatchedbetween
         }
     }
 }

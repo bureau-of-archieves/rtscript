@@ -33,6 +33,15 @@ namespace RTScript.Test
             Assert.AreEqual(result, "[6] [6] [6] [6] [6]");
         }
 
+        [TestMethod]
+        public void TestGetFunction() {
+            string srcText = @"goose says this is very good.";
+            var rule = new RTRuleData(@"g(o)+[ds]", "[@{($1)@}]", "@{(merge)@}", new RuleOptions());
+            RTRuleSet rules = new RTRuleSet(srcText, new[] { rule });
+            string result = rules.ExecuteAll();
+            Assert.AreEqual("[o]e says this is very [o].", result);
+        }
+
         /// <summary>
         /// test defining var with constant
         /// </summary>
